@@ -8,7 +8,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     public int score = 0;
-    private boolean musicStart = false;
     private TextView tvScore;
     private static MainActivity mainActivity = null;
     public MainActivity() {
