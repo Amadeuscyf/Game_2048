@@ -6,6 +6,7 @@ import android.content.Context;
 import android.widget.TextView;
 
 public class Card extends FrameLayout {
+    private TextView label;
 
     public Card(Context context) {
         super(context);
@@ -41,6 +42,4 @@ public class Card extends FrameLayout {
     public boolean equals(Card c) {
         return getNumber() == c.getNumber();
     }
-
-    private TextView label;
 }

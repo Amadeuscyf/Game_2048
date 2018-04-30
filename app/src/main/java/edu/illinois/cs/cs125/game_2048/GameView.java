@@ -13,6 +13,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GameView extends GridLayout {
+    private Card[][] cardsBoard = new Card[4][4];
+    private List<Point> emptyPoints = new ArrayList<Point>();
+
     public GameView(Context context, AttributeSet attriSet) {
         super(context, attriSet);
         initGameView();
@@ -259,7 +262,4 @@ public class GameView extends GridLayout {
             }).show();
             }
         }
-
-    private Card[][] cardsBoard = new Card[4][4];
-    private List<Point> emptyPoints = new ArrayList<Point>();
 }

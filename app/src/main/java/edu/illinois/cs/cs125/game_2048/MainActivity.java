@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    public int score = 0;
+    private boolean musicStart = false;
+    private TextView tvScore;
+    private static MainActivity mainActivity = null;
     public MainActivity() {
         mainActivity = this;
     }
@@ -47,13 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 editor.commit();
             }
         }
-
-        public int score = 0;
-        private boolean musicStart = false;
-        private TextView tvScore;
-        private static MainActivity mainActivity = null;
         public static MainActivity getMainActivity () {
             return mainActivity;
         }
-
 }
