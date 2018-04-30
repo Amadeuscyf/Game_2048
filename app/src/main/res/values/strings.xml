@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Game_2048</string>
+    <string name="score">Score</string>
+    <string name="HighestScore">Highest Score</string>
+    <string name="start">Play background music</string>
+    <string name="highestScore">HighestScore : 0</string>
+    <string name="play">play</string>
+</resources>
